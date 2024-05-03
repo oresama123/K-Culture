@@ -1,0 +1,128 @@
+  <style>
+      *{box-sizing: border-box}
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(45deg, #ff66c4, #0c3b57);
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header {
+      text-align: center;
+      color: white;
+      padding: 50px 0;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    
+    .header h1 {
+      font-size: 3em;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    .header p {
+      font-size: 1.5em;
+    }
+    
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 0;
+    }
+    
+    .album {
+      background: white;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+      .album:hover{
+          transform: scale(1.05)
+      }
+    .album img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    
+    .album h2 {
+      margin: 20px 0 10px;
+      font-size: 1.5em;
+    }
+    
+    .album p {
+      color: #555;
+      font-size: 1em;
+    }
+    
+    .btn {
+      background: #ff66c4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    
+    .btn:hover {
+      background: #e056a1;
+    }
+      
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-sizing: border-box;
+            text-transform: uppercase;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ff66c4;
+        }
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 0.9em;
+            color: white;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #ffa07a;
+        }
+  </style>

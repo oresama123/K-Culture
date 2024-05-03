@@ -1,0 +1,128 @@
+<style>
+*{box-sizing: border-box;}
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(45deg, #ff66c4, #3333cc);
+            color: white;
+        }
+
+        /* Navbar */
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-sizing: border-box;
+            text-transform: uppercase;
+        }
+
+.navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+.navbar a:hover {
+            color: #ff66c4;
+        }
+
+/* About Section */
+.about {
+            padding-top: 80px; /* Account for fixed navbar */
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+.about h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+.about p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        /* Team Section */
+.team {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+.team-member {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin: 15px;
+            transition: transform 0.3s;
+        }
+
+.team-member:hover {
+            transform: scale(1.05);
+        }
+
+.team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+.team-member h2 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+
+.team-member p {
+            font-size: 1em;
+            color: #ddd;
+        }
+
+/* Footer */
+.footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+        }
+
+.footer p {
+            font-size: 0.9em;
+        }
+
+.footer a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+.footer a:hover {
+            color: #ff66c4;
+        }
+        
+.korea {
+           padding: 0px 0; 
+           width: 500px;
+           display: block;
+           margin: auto;
+           border: 10px solid rgba(255,255,255,0.2);
+           border-radius: 50px;
+           background: rgba(255, 255, 255, 0.1);
+           transition: transform 0.3s;
+    }
+.korea:hover{
+    transform: scale(1.05)
+}
+</style>

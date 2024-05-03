@@ -1,0 +1,154 @@
+<style>
+         *{box-sizing: border-box}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(45deg, #e66465, #9198e5);
+            color: white;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-sizing: border-box;
+            text-transform: uppercase;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #e66465;
+        }
+
+        /* Header */
+        .header {
+            padding-top: 50px; /* Account for fixed navbar */
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        /* Featured Dramas Section */
+        .dramas {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .drama {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+
+        .drama:hover {
+            transform: scale(1.05);
+        }
+
+        .drama img {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 50px;
+            border-radius: 120px;
+        }
+
+        .drama h2 {
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+
+        .drama p {
+            font-size: 1.1em;
+            color: #ddd;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #e66465;
+        }
+        
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 0;
+    }
+    
+    .album {
+      background: white;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+        .album:hover{
+            transform: scale(1.05)
+        }
+    .album img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    
+    .album h2 {
+      margin: 20px 0 10px;
+      font-size: 1.5em;
+    }
+    
+    .album p {
+      color: #555;
+      font-size: 1em;
+    }
+        .title{
+            color: black;
+        }
+    </style>
